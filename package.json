@@ -1,0 +1,21 @@
+{
+    "name": "jummiterm-dark",
+    "displayName": "jummiterm-dark",
+    "description": "The Jummiterm Colors theme in the dark variety",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Jummiterm-Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Jummiterm-Dark Theme-color-theme.json"
+            }
+        ]
+    }
+}
