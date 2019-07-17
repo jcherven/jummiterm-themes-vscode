@@ -14,7 +14,7 @@
             {
                 "label": "Jummiterm-Dark Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Jummiterm-Dark Theme-color-theme.json"
+                "path": "./themes/jummiterm-dark-color-theme.json"
             }
         ]
     }
