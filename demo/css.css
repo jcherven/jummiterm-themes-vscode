@@ -15,16 +15,10 @@ Dark green: #28b485
     padding: 0;
     box-sizing: inherit;
 }
-/* chagne box-sizing behavior to be inherited from body throughout page */
-/* box-size here and box-size in body work together */
 
 html {
     font-size: 62.5%;
 }
-/* root font size is set in html selector, this enables rem to be used throughout css */
-/* use 10 as root size as now 1.6rem is easily calculated to 16px */
-/* changed line 18 to %, this allows user settings to be used and we want 10px initial */
-/* and browser default is 16px so 10/16= 62.5% */
 
 body {
     font-family: "Lato", sans-serif;
@@ -35,7 +29,6 @@ body {
     padding: 3rem;
     box-sizing: border-box;
 }
-/* put these attributes in body because all children will inderit behavior of body */
 
 .header {
     height: 95vh;
@@ -49,21 +42,12 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
 }
-/* background picture has to be second definition as you want the gradient to have opacity and show thru */
-/* background-size: cover; fit background in viewport */
-/* background-position: top; crop bottom of image during resize, could also do bottom or center */
-/* clip-path: polygon(0 0, x y, x y) */
-/* http://bennettfeely.com/clippy/ */
-/* vh works with viewport height while % works with size of parent element that % is in */
-/* https://stackoverflow.com/questions/31039979/css-units-what-is-the-difference-between-vh-vw-and%E2%80%8B */
-/* parent element for logo-box below so set position to relative */
 
 .header__logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
-/* absolute position from parent element, in this case .header, since .logo-box is absolute make .header relative */
 
 .header__logo {
     height: 3.5rem;
@@ -83,7 +67,6 @@ body {
     text-align: center;
     /* background-color: red; */
 }
-/* without the transform the top left would reffer to the top left corner */
 
 .heading-primary {
     color: #fff;
@@ -91,7 +74,6 @@ body {
     backface-visibility: hidden;
     margin-bottom: 6rem;
 }
-/* backface-visibility is to fix text shake during end of animation */
 
 .heading-primary--main {
     display: block;
@@ -127,7 +109,6 @@ body {
         transform: translate(0);
     }
 }
-/* for browser performance it's best to only animate opacity and transform */
 
 @keyframes moveInRight {
     0% {
@@ -165,15 +146,11 @@ body {
     transition: all .2s;
     position: relative;
 }
-/* inline-block will prevent element from spanning entire container */
-/* choose a large number for border-radius, could have been 1000 and the effect would be the same */
 
 .btn:hover {
     transform: translateY(-.3rem);
     box-shadow: 0 1rem 2rem rgba(0,0,0, 0.2);
 }
-/* negative is up in Y */
-/* box shadow: x y blur color */
 
 .btn:active {
     transform: translateY(-.1rem);
@@ -197,7 +174,6 @@ body {
     z-index: -1;
     transition: all .4s;
 }
-/* first two properties are required for ::after pseudo-code to work */
 
 .btn--white::after {
     background-color: #fff;
@@ -211,11 +187,6 @@ body {
 .btn--animated {
     animation: moveInBottom 2s ease-out 1s;
     animation-fill-mode: backwards;
-}
-/* last value is animation delay */
-/* fill mode will allow initial keyframe property to display upon page refresh */
-/* in this case it hides the button on initial page refresh */someClass {
-  font-family: sans;
 }
 
 #someID {
