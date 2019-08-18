@@ -10,7 +10,7 @@ A VSCode syntax and UI theme based on Jummiterm by James Cherven. Suitable for w
 
 Work in progress.
 
-## Design Priniciples
+## Design Principles
 
 - Limited palette of colors I like
   - 8 basic cterm colors which are in inverted order for their bright variations
