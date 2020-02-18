@@ -10,6 +10,8 @@ A VSCode syntax and UI theme based on Jummiterm. Jummiterm is a text highlightin
 
 Work in progress.
 
+![sample Javascript screenshot](./screenshots/screenshot00.png)
+
 ## Design Principles
 
 - Limited palette of colors in pastel hues
