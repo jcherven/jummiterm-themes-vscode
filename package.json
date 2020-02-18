@@ -1,23 +1,23 @@
 {
-    "name": "jummiterm-dark",
-    "displayName": "jummiterm-dark",
-    "description": "The Jummiterm Colors theme in the dark variety",
-    "version": "0.0.2",
-    "publisher": "jummiterm",
-    "repository": "https://github.com/jcherven/jummiterm-themes-vscode.git",
-    "engines": {
-        "vscode": "^1.36.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Jummiterm-Dark Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/jummiterm-dark-color-theme.json"
-            }
-        ]
-    }
+  "name": "jummiterm-dark",
+  "displayName": "Jummiterm Dark Color Theme",
+  "description": "A dark VSCode syntax highlighting color scheme with strong principles. Designed for smooth legibility and visual distinction among the different parts of your web stack.",
+  "version": "0.0.3",
+  "publisher": "jummiterm",
+  "repository": "https://github.com/jcherven/jummiterm-themes-vscode.git",
+  "engines": {
+    "vscode": "^1.36.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jummiterm-Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jummiterm-dark-color-theme.json"
+      }
+    ]
+  }
 }
