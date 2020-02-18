@@ -1,5 +1,7 @@
 # Jummiterm Themes for VSCode (alpha)
 
+![sample Javascript screenshot](./screenshots/screenshot00.png)
+
 A VSCode syntax and UI theme based on Jummiterm. Jummiterm is a text highlighting scheme for terminals and code which I have developed for [my own dotfiles](https://github.com/jcherven/dotfiles). It is suitable for web development and system administration, designed with the following document types in mind:
 
 - JS/JSX
@@ -9,8 +11,6 @@ A VSCode syntax and UI theme based on Jummiterm. Jummiterm is a text highlightin
 - vimscript
 
 Work in progress.
-
-![sample Javascript screenshot](./screenshots/screenshot00.png)
 
 ## Design Principles
 
